@@ -1,4 +1,3 @@
-import { FaCcMastercard, FaCcVisa } from "react-icons/fa";
 import { cn } from "../../../lib/utils";
 
 export default function PaymentsFooter() {
