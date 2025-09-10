@@ -4,11 +4,7 @@ import { CircleUserRound, Cuboid, LogIn, Menu, X } from "lucide-react";
 import { FaApple, FaFacebook, FaGoogle } from "react-icons/fa";
 import { Switch } from "../../components/ui/switch";
 
-// import * as React from "react";
-// import { Minus, Plus } from "lucide-react";
-// import { Bar, BarChart, ResponsiveContainer } from "recharts";
-
-import { Button } from "../../components/ui/button";
+import Button from "../../components/ui/button";
 import {
   Drawer,
   DrawerClose,

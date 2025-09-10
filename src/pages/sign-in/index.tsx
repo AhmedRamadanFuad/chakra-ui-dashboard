@@ -2,7 +2,7 @@ import { Link } from "react-router";
 import logo from "../../assets/logo.svg";
 import { CircleUserRound, Cuboid, LogIn, Menu, X } from "lucide-react";
 import { Switch } from "../../components/ui/switch";
-import { Button } from "../../components/ui/button";
+import Button from "../../components/ui/button";
 import {
   Drawer,
   DrawerClose,
