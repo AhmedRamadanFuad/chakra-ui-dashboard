@@ -1,14 +1,8 @@
 import { cn } from "../../../lib/utils";
-import author1 from "../../../assets/author1.png";
-import author2 from "../../../assets/author2.png";
-import author3 from "../../../assets/author3.png";
-import author4 from "../../../assets/author4.png";
-import author5 from "../../../assets/author5.png";
-import author6 from "../../../assets/author6.png";
 
 const authorsTable = [
   {
-    image: author1,
+    image: "/assets/author1.png",
     name: "Esthera Jackson",
     email: "esthera@simmmple.com",
     title: "Manager",
@@ -17,7 +11,7 @@ const authorsTable = [
     date: "14/06/21",
   },
   {
-    image: author2,
+    image: "/assets/author2.png",
     name: "Alexa Liras",
     email: "alexa@simmmple.com",
     title: "Programmer",
@@ -26,7 +20,7 @@ const authorsTable = [
     date: "14/06/21",
   },
   {
-    image: author3,
+    image: "/assets/author3.png",
     name: "Laurent Michael",
     email: "laurent@simmmple.com",
     title: "Executive",
@@ -35,7 +29,7 @@ const authorsTable = [
     date: "14/06/21",
   },
   {
-    image: author4,
+    image: "/assets/author4.png",
     name: "Freduardo Hill",
     email: "freduardo@simmmple.com",
     title: "Manager",
@@ -44,7 +38,7 @@ const authorsTable = [
     date: "14/06/21",
   },
   {
-    image: author5,
+    image: "/assets/author5.png",
     name: "Daniel Thomas",
     email: "daniel@simmmple.com",
     title: "Programmer",
@@ -53,7 +47,7 @@ const authorsTable = [
     date: "14/06/21",
   },
   {
-    image: author6,
+    image: "/assets/author6.png",
     name: "Mark Wilson",
     email: "mark@simmmple.com",
     title: "Designer",

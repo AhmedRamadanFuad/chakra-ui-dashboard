@@ -1,5 +1,4 @@
 import { Link } from "react-router";
-import logo from "../../assets/logo.svg";
 import { CircleUserRound, Cuboid, LogIn, Menu, X } from "lucide-react";
 import { Switch } from "../../components/ui/switch";
 import Button from "../../components/ui/button";
@@ -32,7 +31,7 @@ function SignIn() {
       <div className="max-w-[939.5px] h-full mx-auto flex flex-col max-[1525px]:items-center">
         <header className="min-w-full flex justify-between items-center backdrop-blur-lg shadow-lg bg-white/80 py-[27.5px] rounded-[15px] px-[23px]">
           <div className="text-secondary uppercase text-sm font-bold flex gap-3 items-center">
-            <img src={logo} className="size-[22px]" alt="" />
+            <img src="/public/assets/logo.svg" className="size-[22px]" alt="" />
             PURITY UI DASHBOARD
           </div>
           <div className="lg:hidden block">

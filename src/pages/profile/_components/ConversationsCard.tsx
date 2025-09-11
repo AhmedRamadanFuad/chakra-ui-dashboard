@@ -2,22 +2,22 @@ import { cn } from "../../../lib/utils";
 
 const conversations = [
   {
-    avatar: "/src/assets/author1.png",
+    avatar: "/assets/author1.png",
     name: "Esthera Jackson",
     message: "Hi! I need more informations...",
   },
   {
-    avatar: "/src/assets/author2.png",
+    avatar: "/assets/author2.png",
     name: "Esthera Jackson",
     message: "Awesome work, can you change...",
   },
   {
-    avatar: "/src/assets/author3.png",
+    avatar: "/assets/author3.png",
     name: "Esthera Jackson",
     message: "Have a great afternoon...",
   },
   {
-    avatar: "/src/assets/author4.png",
+    avatar: "/assets/author4.png",
     name: "Esthera Jackson",
     message: "About files I can...",
   },

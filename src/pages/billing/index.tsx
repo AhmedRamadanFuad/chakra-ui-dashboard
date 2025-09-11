@@ -1,9 +1,7 @@
 import Header from "../../components/Header";
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-
 import PaymentsFooter from "./_components/PaymentsFooter";
-import CreditCard from "../../assets/CreditCard.png";
 import InvoicesCard from "./_components/InvoicesCard";
 import PaypalCard from "./_components/PaypalCard";
 import BillingInfoCard from "./_components/BillingInfoCard";
@@ -26,7 +24,7 @@ function Billing() {
         <div className="flex flex-col gap-6">
           <div className="grid grid-cols-1 2xl:grid-cols-2 gap-6 items-center">
             <div className="w-full">
-              <img src={CreditCard} className="w-full" alt="" />
+              <img src="/assets/CreditCard.png" className="w-full" alt="" />
             </div>
 
             <PaypalCard />

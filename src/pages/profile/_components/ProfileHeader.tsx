@@ -4,7 +4,7 @@ import { Input } from "../../../components/ui/input";
 export default function ProfileHeader() {
   return (
     <div className="w-full">
-      <div className="bg-[url(src/assets/bg-profile.png)] max-w-[1598px] bg-no-repeat h-full lg:h-[300px] rounded-[15px] px-6 pt-6 max-lg:pb-6 flex flex-col justify-between">
+      <div className="bg-[url(/assets/bg-profile.png)] max-w-[1598px] bg-no-repeat h-full lg:h-[300px] rounded-[15px] px-6 pt-6 max-lg:pb-6 flex flex-col justify-between">
         <header className="flex justify-between w-full items-start pr-[25.5px] ml-[16.5px] mb-[26.5px] h-full lg:h-[300px]">
           <div>
             <div className="text-white text-xs">
@@ -29,7 +29,7 @@ export default function ProfileHeader() {
           <div className="flex items-center gap-4 lg:flex-row flex-col">
             <div className="relative">
               <img
-                src="/src/assets/author1.png"
+                src="/assets/author1.png"
                 alt="Profile"
                 className="w-20 h-20 object-cover rounded-[15px] relative"
               />

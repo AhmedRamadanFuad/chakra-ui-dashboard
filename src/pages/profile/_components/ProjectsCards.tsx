@@ -1,14 +1,12 @@
 import { cn } from "../../../lib/utils";
 
-import jorge from "../../../assets/jorge.png";
-
 const projects = [
   {
     id: 1,
     title: "Modern",
     description:
       "As Uber works through a huge amount of internal management turmoil.",
-    image: jorge,
+    image: "/public/assets/jorge.png",
     members: [
       "/assets/author1.png",
       "/assets/author2.png",
@@ -21,7 +19,7 @@ const projects = [
     title: "Scandinavian",
     description:
       "Music is something that every person has his or her own specific opinion about.",
-    image: jorge,
+    image: "/public/assets/jorge.png",
     members: [
       "/assets/author2.png",
       "/assets/author3.png",
@@ -34,7 +32,7 @@ const projects = [
     title: "Minimalist",
     description:
       "Different people have different taste, and various types of music.",
-    image: jorge,
+    image: "/assets/jorge.png",
     members: [
       "/assets/author3.png",
       "/assets/author4.png",

@@ -7,7 +7,7 @@ import {
   DrawerTrigger,
 } from "./ui/drawer";
 import { Link } from "react-router";
-import logoImage from "../assets/logo.svg";
+
 import {
   CircleQuestionMark,
   CircleUser,
@@ -68,7 +68,11 @@ function DrawerSidebarButton() {
               </DrawerClose>
             </DrawerFooter>
             <h1 className="flex uppercase text-secondary font-bold text-sm gap-3 mt-4">
-              <img src={logoImage} alt="" className="size-[22px] max-md:ml-1" />
+              <img
+                src="/assets/logo.svg"
+                alt=""
+                className="size-[22px] max-md:ml-1"
+              />
               <span>PURITY UI DASHBOARD</span>
             </h1>
             <span className="w-full h-[1px] block mt-[27.5px] mb-[22.5px] bg-gradient-to-r from-transparent via-[#E0E1E2] to-transparent" />
@@ -123,7 +127,7 @@ function DrawerSidebarButton() {
                 </Link>
               ))}
             </ul>
-            <div className="mt-[69.5px] bg-[url(src/assets/side-bar.png)] w-full h-[169.5px] rounded-[15px] p-4">
+            <div className="mt-[69.5px] bg-[url(/assets/side-bar.png)] w-full h-[169.5px] rounded-[15px] p-4">
               <div className="mb-[21.5px]">
                 <div className="p-[8.5px] bg-white w-fit rounded-[12px]">
                   <CircleQuestionMark

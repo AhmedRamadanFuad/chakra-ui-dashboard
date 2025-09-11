@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import logo from "../../assets/logo-white.png";
+// import logo from "../../../public/assets/logo-white.png";
 import { CircleUserRound, Cuboid, LogIn, Menu, X } from "lucide-react";
 import { FaApple, FaFacebook, FaGoogle } from "react-icons/fa";
 import { Switch } from "../../components/ui/switch";
@@ -33,7 +33,7 @@ function SignUp() {
       <div className="image2 min-h-[520.5px] w-full rounded-[15px] px-10">
         <header className="mt-11 flex justify-between items-center max-w-[939.5px] mx-auto">
           <div className="text-white uppercase text-sm font-bold flex gap-3 items-center">
-            <img src={logo} className="size-[22px]" alt="" />
+            <img src="/assets/logo-white.png" className="size-[22px]" alt="" />
             PURITY UI DASHBOARD
           </div>
           <div className="lg:hidden block">

@@ -1,5 +1,4 @@
 import { ArrowRight } from "lucide-react";
-import chakraImage from "../../../assets/chakra.png";
 
 function Purity() {
   return (
@@ -22,7 +21,7 @@ function Purity() {
         </button>
       </div>
       <div className="max-xl:hidden">
-        <img src={chakraImage} alt="" />
+        <img src="/assets/chakra.png" alt="" />
       </div>
     </div>
   );

@@ -122,11 +122,11 @@
     @apply bg-background text-foreground;
   }
   .image {
-    background-image: url(src/assets/brooke.png);
+    background-image: url(/assets/brooke.png);
     /* background-size: cover; */
   }
   .image2 {
-    background-image: url(src/assets/sign-up-bg.png);
+    background-image: url(/assets/sign-up-bg.png);
     background-size: cover;
   }
   /* .image-sign-in {
@@ -136,7 +136,7 @@
   } */
   @media (min-width: 1525px) {
     .image-sign-in {
-      background-image: url(src/assets/sign-in-bg.png);
+      background-image: url(/assets/sign-in-bg.png);
       background-repeat: no-repeat;
       background-position: top right;
     }

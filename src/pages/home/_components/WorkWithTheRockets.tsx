@@ -1,6 +1,5 @@
 import { ArrowRight } from "lucide-react";
 
-// import chakraImage from "../../../assets/chakra.png";
 function WorkWithTheRockets() {
   return (
     <div className="p-[17.5px] bg-white flex justify-between rounded-[15px] w-full">
